@@ -190,5 +190,5 @@ vscode와 preview로 대조하여 확인할 것
 ## TIL로 성장하기 ##
 
 - TIL(Today I Learned)을 통해 학습 기록
-- Github로 포트폴리오
+- Github로 포트폴리오 작성
 - python 오픈소스 프로젝트에 기여한다는 것을 어필할 것
