@@ -27,8 +27,11 @@ vscode와 preview로 대조하여 확인할 것
     print("Hello World!")
     ```
 ---
-- [구글](링크) : 글자 클릭하면 링크로 연결
+- [제목](링크) : 글자 클릭하면 링크로 연결
 - ![제목](링크) : 이미지 추가, 크기 조정은 HTML 활용
+- 예시
+    - [구글](https://google.com)
+    - ![사진](https://fastly.picsum.photos/id/517/200/200.jpg?hmac=7n69zdD4qSZs14zMRZPUfLGKHFEIR9jTpoSEN1o990E)
 ---
 - **굵은글씨**
 - *기울임*
