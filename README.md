@@ -17,38 +17,31 @@
 11. TIL로 성장하기
 
 
-
+---
 ## markdown 문법 ##
 
 vscode와 preview로 대조하여 확인할 것
 
 - ### 제목 : #의 개수 줄수록 크기도 줄어듦 ###
----
  - `print` : 코드블럭
----
 - 억음 뒤 프로그래밍 언어 입력하여 코드 작성하기
     ```python
     print("Hello World!")
     ```
----
 - [제목](링크) : 글자 클릭하면 링크로 연결
 - ![제목](링크) : 이미지 추가, 크기 조정은 HTML 활용
 - 예시
     - [구글](https://google.com)
     - ![사진](https://fastly.picsum.photos/id/517/200/200.jpg?hmac=7n69zdD4qSZs14zMRZPUfLGKHFEIR9jTpoSEN1o990E)
----
 - **굵은글씨**
 - *기울임*
 - ~~가운데 선~~
----
 - shift + tab : 1수준 감소
----
 - --- : 구분선
----
 - <h3> HTML 제목 </h3> : 마크다운에서도 html 태그 활용 가능
 
 
-
+---
 ## CLI 문법 ##
 
 - `exit` : cmd창 닫기
@@ -63,7 +56,7 @@ vscode와 preview로 대조하여 확인할 것
 - `cd` : 디렉토리 이동하기
 
 
-
+---
 ## Git 개요 ##
 
 - 형상관리, 버전관리
@@ -75,7 +68,7 @@ vscode와 preview로 대조하여 확인할 것
     3. 상대 작업자와 최신 버전으로 작업물 공유 가능
 
 
-
+---
 ## Git의 4가지 영역 ##
 
 - Working Directory(작업 공간) : 실제 작업 영역
@@ -84,7 +77,7 @@ vscode와 preview로 대조하여 확인할 것
 - **Working Directory**에서 `add`하면 **Staging Area**으로, **Staging Area**에서 `commit`하면 **Repository**로 이동하는 순서
 
 
-
+---
 ## Git 문법 ##
 
 - `git init` : 로컬 저장소 설정(초기화). 디렉토리를 git으로 버전관리 할 것을 선언
@@ -100,7 +93,7 @@ vscode와 preview로 대조하여 확인할 것
 - `git rm —cached sample.txt` : **Staging Area**에서 **Working Directory**로 내림
 
 
-
+---
 ## 파일을 Git에 저장하기 ##
 
 준비물: Git Bash, VSCode
@@ -137,7 +130,7 @@ vscode와 preview로 대조하여 확인할 것
 - `q!` : esc 후 변경사항 저장하지 않고 종료
 
 
-
+---
 ## Git에 Push하기 ##
 
 ### 기본 문법 ###
@@ -166,7 +159,7 @@ vscode와 preview로 대조하여 확인할 것
 - 로컬 뿐만 아니라 원격 레포지토리 내에도 .git 디렉토리 존재
 
 
-
+---
 ## Git에 Pull & Clone 하기 ##
 
 - `git pull origin master` : 원격 저장소의 변경사항만 받아와서 저장. 로컬에 git 폴더가 이미 있을 때
@@ -177,7 +170,7 @@ vscode와 preview로 대조하여 확인할 것
     - url은 GitHub의 Repository에서 복사 가능
 
 
-
+---
 ## Git 추적 예외 항목 만들기
 - .gitignore (파일명 앞에 ‘.’ 입력, 확장자 없음
 - `gitignore` : git에서 특정 파일이나 디렉토리를 추적하지 않도록 설정하는 데 사용하는 텍스트 파일
@@ -187,13 +180,13 @@ vscode와 preview로 대조하여 확인할 것
 - 만약 a.txt 추가하지 않고 `git.init`했다면 [Git ignore](https://www.toptal.com/developers/gitignore/) 에서 가져온 코드로 `.gitignore`에 추가
 
 
-
+---
 ## 기타 Git 명령어 ##
 
 - `mv -f first-repo git_advanced` : 디렉토리명 변경
 
 
-
+---
 ## TIL로 성장하기 ##
 
 - TIL(Today I Learned)을 통해 학습 기록
