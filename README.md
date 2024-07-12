@@ -31,6 +31,7 @@ vscode와 preview로 대조하여 확인할 것
     ```
 - [제목](링크) : 글자 클릭하면 링크로 연결
 - ![제목](링크) : 이미지 추가, 크기 조정은 HTML 활용
+- ![제목](./이미지명) : 로컬 폴더 안의 이미지 추가 가능
 - 예시
     - [구글](https://google.com)
     - ![사진](https://fastly.picsum.photos/id/517/200/200.jpg?hmac=7n69zdD4qSZs14zMRZPUfLGKHFEIR9jTpoSEN1o990E)
