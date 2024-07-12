@@ -185,9 +185,37 @@ vscode와 preview로 대조하여 확인할 것
 
 
 ---
+## 되돌리기 ##
+
+### Git revert ###
+
+- `git revert <commit id(해시값)>` : 재설정. 단일 commit을 실행 취소하는 것.  프로젝트 기록에서 commit을 없었던 일로 처리 후 그 결과를 새로운 commit으로 추가함
+- 커밋 기록에서 삭제하거나 분리하는 대신, 지정된 변경 사항을 반전시키는 새 커밋을 생성
+- git에서 기록이 손실되는 것을 방지하며 기록의 무결성과 협업의 신뢰성을 높임
+
+### Git reset ###
+
+- 되돌리기
+- 특정 commit으로 되돌아갈 때, 되돌아간 commit 이후의 commit은 모두 삭제
+- 옵션
+    - --soft : 삭제된 커밋의 기록을 Staging Area에 남김
+    - --mixed : 삭제된 커밋의 기록을 Working Directory에 남김 (기본 옵션 값)
+    - --hard : 삭제된 commit의 기록을 남기지 않음
+- `git reset --옵션 <해시값>`
+- `git reflog` : hard option으로 지워진 커밋도 조회하여 복구 가능
+- `git restore` : Modified 상태의 파일 되돌리기(파일 내용을 수정 전으로 되돌리기). Working directory 파일의 수정 사항을 취소하고, 원래 모습대로 되돌리는 작업
+
+- Unstage 명령어 두 가지
+    - `git rm —cached` : Staging Area에서 Working Directory로 옮기기
+    - `git restore —straged` : Repository에 있는 것을 Working Directory로 돌리는 것
+
+
+---
 ## 기타 Git 명령어 ##
 
 - `mv -f first-repo git_advanced` : 디렉토리명 변경
+- `git remote -v` : 현재 로컬 저장소에 등록된 원격 저장소 목록 보기
+- `git remote rm 원격_저장소_이름` : 현재 로컬 저장소에 등록된 원격 저장소 삭제
 
 
 ---
@@ -195,4 +223,4 @@ vscode와 preview로 대조하여 확인할 것
 
 - TIL(Today I Learned)을 통해 학습 기록
 - Github로 포트폴리오 작성
-- python 오픈소스 프로젝트에 기여한다는 것을 어필할 것
+- python 오픈소스 프로젝트에 기여함을 어필할 수 있음
