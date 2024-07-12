@@ -10,11 +10,12 @@
 4. Git의 3가지 영역
 5. Git 기초 문법
 6. 파일을 GIT에 저장하기
-7. Git에 Push하기
-8. Git에 Pull & Clone 하기
-9. Git 추적 예외 항목 만들기
-10. 기타 Git 명령어
-11. TIL로 성장하기
+7. vi편집기
+8. Git에 Push하기
+9. Git에 Pull & Clone 하기
+10. Git 추적 예외 항목 만들기
+11. 기타 Git 명령어
+12. TIL로 성장하기
 
 
 ---
@@ -124,7 +125,9 @@ vscode와 preview로 대조하여 확인할 것
 - `git log --oneline` : commit hash 값 확인하기, commit 내용 한줄로 간단히 보기
 - `git commit --amdne` : 저장소에 올린 커밋 수정. 빠진 내용, 커밋 메시지 등
 
-### vi 편집기 ###
+
+---
+## vi 편집기 ##
 - `i` : insert의 약자로, 내용 수정 추가 제거 등 작업 수행
 - `:wq` : esc 후 변경사항 저장하고 종료
 - `q!` : esc 후 변경사항 저장하지 않고 종료
