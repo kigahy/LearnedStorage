@@ -1,7 +1,9 @@
 # SSAFY 부울경 1반 김가현 #
 24/07/10~12 수업 내용 정리
 
+
 ### 목차 ###
+
 1. Markdown 문법
 2. CLI 문법
 3. Git 개요
@@ -13,10 +15,11 @@
 9. 기타 Git 명령어
 10. TIL로 성장하기
 
+
+
 ## markdown 문법 ##
 
 vscode와 preview로 대조하여 확인할 것
-
 
 - ### 제목 : #의 개수 줄수록 크기도 줄어듦 ###
 ---
@@ -44,7 +47,9 @@ vscode와 preview로 대조하여 확인할 것
 - <h3> HTML 제목 </h3> : 마크다운에서도 html 태그 활용 가능
 
 
+
 ## CLI 문법 ##
+
 - `exit` : cmd창 닫기
 - `pwd` : root 디렉토리~현재 디렉토리 경로 표시
 - `.` : 현재 디렉토리
@@ -56,7 +61,10 @@ vscode와 preview로 대조하여 확인할 것
     - `ls -a` : 숨겨진 파일도 보기
 - `cd` : 디렉토리 이동하기
 
+
+
 ## Git 개요 ##
+
 - 형상관리, 버전관리
 - 분산 버전 관리 시스템
 - 작업물을 로컬 저장소에 기록한 후, 중앙 서버와 동기화
@@ -66,14 +74,18 @@ vscode와 preview로 대조하여 확인할 것
     3. 상대 작업자와 최신 버전으로 작업물 공유 가능
 
 
+
 ## Git의 4가지 영역 ##
+
 - Working Directory(작업 공간) : 실제 작업 영역
 - Staging Area(임시 저장 공간) : 작업 공간에서 변경된 파일 중, 다음 버전에 포함할 파일을 선택적으로 추가/제거하는 중간 준비 영역
 - Repository(저장소) : 모든 버전, 변경 이력, 파일이 영구적으로 저장되는 영역
 - **Working Directory**에서 `add`하면 **Staging Area**으로, **Staging Area**에서 `commit`하면 **Repository**로 이동하는 순서
 
 
+
 ## Git 문법 ##
+
 - `git init` : 로컬 저장소 설정(초기화). 디렉토리를 git으로 버전관리 할 것을 선언
 - `git add` : 변경사항 있는 파일을 SA 에 추가.
     - `git add a.txt` : 파일
@@ -85,6 +97,7 @@ vscode와 preview로 대조하여 확인할 것
     - `git commit -m "로그인 기능 추가”` : 설명 추가
 - `git status` : 디렉토리 내 파일의 상태 확인 가능
 - `git rm —cached sample.txt` : **Staging Area**에서 **Working Directory**로 내림
+
 
 
 ## 파일을 Git에 저장하기 ##
@@ -122,6 +135,8 @@ vscode와 preview로 대조하여 확인할 것
 - `:wq` : esc 후 변경사항 저장하고 종료
 - `q!` : esc 후 변경사항 저장하지 않고 종료
 
+
+
 ## Git에 Push하기 ##
 
 ### 기본 문법 ###
@@ -149,7 +164,10 @@ vscode와 preview로 대조하여 확인할 것
 - 2번 후 `git log --oneline`로 확인한 후, *head->master(로컬)* 의 브랜치, *origin/master(클라우드)* 브랜치의 저장 총 두 개
 - 로컬 뿐만 아니라 원격 레포지토리 내에도 .git 디렉토리 존재
 
+
+
 ## Git에 Pull & Clone 하기 ##
+
 - `git pull origin master` : 원격 저장소의 변경사항만 받아와서 저장. 로컬에 git 폴더가 이미 있을 때
 - `git clone <remote_repo_url>` : 원격 저장소 전체를 복제(다운로드)
     - `clone` 통해 받은 프로젝트는 이미 `git init`이 되어 있음
@@ -157,10 +175,16 @@ vscode와 preview로 대조하여 확인할 것
     - .git 안에 .git 존재하면 안 됨
     - url은 GitHub의 Repository에서 복사 가능
 
+
+
 ## 기타 Git 명령어 ##
+
 - `mv -f first-repo git_advanced` : 디렉토리명 변경
 
+
+
 ## TIL로 성장하기 ##
+
 - TIL(Today I Learned)을 통해 학습 기록
 - Github로 포트폴리오
 - python 오픈소스 프로젝트에 기여한다는 것을 어필할 것
