@@ -12,8 +12,9 @@
 6. 파일을 GIT에 저장하기
 7. Git에 Push하기
 8. Git에 Pull & Clone 하기
-9. 기타 Git 명령어
-10. TIL로 성장하기
+9. Git 추적 예외 항목 만들기
+10. 기타 Git 명령어
+11. TIL로 성장하기
 
 
 
@@ -174,6 +175,16 @@ vscode와 preview로 대조하여 확인할 것
     - `git init` 하기 전 디렉토리에 vscode에 (master) 있는지 확인
     - .git 안에 .git 존재하면 안 됨
     - url은 GitHub의 Repository에서 복사 가능
+
+
+
+## Git 추적 예외 항목 만들기
+- .gitignore (파일명 앞에 ‘.’ 입력, 확장자 없음
+- `gitignore` : git에서 특정 파일이나 디렉토리를 추적하지 않도록 설정하는 데 사용하는 텍스트 파일
+- `git init` 전에 만듦. 이후에 만들면 의미 없음
+- `git status`
+- 폴더 생성 후 vscode로 `.gitignore` 만들고 a.txt b.txt도 함께 만든 후, `.gitignore`에 a.txt 문구 추가한 후 `git init` 하면 a.txt는 추적하지 않음
+- 만약 a.txt 추가하지 않고 `git.init`했다면 [Git ignore](https://www.toptal.com/developers/gitignore/) 에서 가져온 코드로 `.gitignore`에 추가
 
 
 
