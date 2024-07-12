@@ -205,9 +205,9 @@ vscode와 preview로 대조하여 확인할 것
 - `git reflog` : hard option으로 지워진 커밋도 조회하여 복구 가능
 - `git restore` : Modified 상태의 파일 되돌리기(파일 내용을 수정 전으로 되돌리기). Working directory 파일의 수정 사항을 취소하고, 원래 모습대로 되돌리는 작업
 
-- Unstage 명령어 두 가지
-    - `git rm —cached` : Staging Area에서 Working Directory로 옮기기
-    - `git restore —straged` : Repository에 있는 것을 Working Directory로 돌리는 것
+Unstage
+ - `git rm —cached` : Staging Area에서 Working Directory로 옮기기
+- `git restore —straged` : Repository에 있는 것을 Working Directory로 돌리는 것
 
 
 ---
