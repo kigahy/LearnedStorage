@@ -11,6 +11,7 @@
 7. Git에 Push하기
 8. Git에 Pull & Clone 하기
 9. 기타 Git 명령어
+10. TIL로 성장하기
 
 ## markdown 문법 ##
 
@@ -156,3 +157,7 @@ vscode와 preview로 대조하여 확인할 것
 ## 기타 Git 명령어 ##
 - `mv -f first-repo git_advanced` : 디렉토리명 변경
 
+## TIL로 성장하기 ##
+- TIL(Today I Learned)을 통해 학습 기록
+- Github로 포트폴리오
+- python 오픈소스 프로젝트에 기여한다는 것을 어필할 것
