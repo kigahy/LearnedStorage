@@ -1,19 +1,23 @@
 import sys
 sys.stdin = open("input.txt", "r")
 
-def DFS(start) :
+def BFS(start) :
+    count = 0
+
+
 
 for tc in range(10) :
 
-    length, start = map(int, input().split()) # 정점 수, 시작점
+    length, start = map(int, input().split()) # 데이터의 길이, 시작점
     lst = list(map(int, input().split())) # from, to, from, to
-    dict = {}
 
-    for i in range(len(lst)//2) :
+    arr = [[] for _ in range(101)]
+
+    for i in range(length//2) : # from, to, ... 의 횟수만큼 반복
         v1 = lst[i*2] # lst의 i번째 값을 v1 변수에 할당
         v2 = lst[i*2+1] # lst의 i+1번째 값을 v2 변수에 할당
 
-        dict[v1] = v2 # from : to, 단방향
+        arr[v1].append(v2)
 
-    result = DFS(dict)
+    result = BFS(start, )
 
