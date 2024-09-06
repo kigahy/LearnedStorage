@@ -21,9 +21,6 @@ def DFS(start, end) :
             else : # 스택에 남은 값 없다면
                 break # while문 탐색 종료
 
-
-
-
 V, E = map(int, input().split())
 lst = list(map(int, input().split()))
 visited = [0] * (V+1)

@@ -2,7 +2,6 @@ import sys
 sys.stdin = open("input.txt", "r")
 
 def BFS(s) : # 시작점 입력받음
-    people = [] # 동시에 연락 받은 사람 수
     queue = [] # bfs 선입선출을 위한 큐
     used[s] = 1 # 시작점 방문체크
     queue.append(s)
@@ -29,6 +28,7 @@ for tc in range(1, 11) :
         arr[v1].append(v2)
 
     BFS(start)
+    print(used)
     result = 0
 
     for i in range(101) :
