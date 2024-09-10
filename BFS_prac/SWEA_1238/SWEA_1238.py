@@ -1,12 +1,11 @@
-# import sys
-# sys.stdin = open("input.txt", "r")
+import sys
+sys.stdin = open("input.txt", "r")
 
 def Find(used) :
     result = 0
     for i in range(101) : # used의 길이 즉 해당하는 사람의 번호까지 반복
         if visited[i] == max(visited) and i > result : # visited에서 가장 멀리 간 노드에 해당하는 거리라면
             result = i # 해당 인덱스값을 result에 넣음
-
     return result
 
 def BFS(start) :
@@ -30,12 +29,9 @@ for tc in range(1, 11) :
     for i in range(length//2) : # 인접리스트 형성
         v1 = lst[i*2]
         v2 = lst[i*2+1]
-
         arr[v1].append(v2)
-
     # print(arr) # 디버깅
     BFS(start)
-
     # 너비우선탐색 완료했고, 이제 최고값 구해야 함
     result = Find(visited)
     print(f'#{tc} {result}')
