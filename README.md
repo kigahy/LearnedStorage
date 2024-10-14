@@ -1,5 +1,5 @@
 # SSAFY 부울경 1반 김가현 #
-24/07/10~12 수업 내용 정리
+Markdown과 Git 관리하기
 
 
 ### 목차 ###
@@ -209,7 +209,12 @@ vscode와 preview로 대조하여 확인할 것
  - `git rm —cached` : Staging Area에서 Working Directory로 옮기기
 - `git restore —straged` : Repository에 있는 것을 Working Directory로 돌리는 것
 
-
+### branch 생성 ##
+- 협업할 때 사용
+- `$ git branch {브랜치명}` : 새 브랜치 생성
+- `$ git pull origin master` : 마스터의 내용 내려받아서 마스터와 같은 환경으로 만들기
+- `$ git switch {브랜치명}` : 내가 작업할 새 브랜치로 전환
+- `$ git merge master` : 합병
 ---
 ## 기타 Git 명령어 ##
 
