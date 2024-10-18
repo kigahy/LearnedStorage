@@ -105,7 +105,7 @@ while game_data is not None:
         if my_position[0] > 0: break
 
     if my_position[0] < len(map_data) - 1 and map_data[my_position[0] + 1][my_position[1]] == 'G':
-        output = 'D A'
+        output = input()
     else:
         output = 'R A'
 
